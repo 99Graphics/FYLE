@@ -1,0 +1,122 @@
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to bottom, #FFF2F5 , #EBF3FD);
+    border-radius: 999px;
+}
+.scrollup:hover {
+    color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+.progress-line {
+    justify-content: center;
+    padding: 0 0;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    bottom: 2.5rem;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+}
+@media (max-width: 1199px) { 
+#Navbar-menu{background: #fff;}
+.banner-title h1 {font-size: 40px;}
+.triangle-bg {bottom: 33.5%;}
+.content-net p {font-size: 18px;}
+.pricing-bx:hover h2 {font-size: 34px;}
+.cont-rep h3 {font-size: 27px;}
+.footer-nav{margin-top: 50px;}
+#counter {bottom: 44px;}
+.schedule{padding-bottom: 20px;}
+.expense-reporting .container .align-items-center:after{width: 435px; background-size: 100%;}
+.expense-reporting .container .align-items-center:nth-child(even):before{width: 435px; background-size: 100%;}
+
+}
+
+
+@media only screen and (max-width: 991px) {
+.btn-bx-fy button {
+    font-size: 16px;
+    padding: 0px 36px !important;
+    height: 40px;
+    line-height: 40px !important;
+}
+#nextBtn img {
+    width: 15px;
+}
+}
+@media (max-width: 991px) {
+.banner-title h1 {font-size: 31px;}
+.brand-logo li {padding: 5px 24px;}
+.wraper-banner img {margin-top: 16px;}
+.content-fyle h2 {font-size: 22px;}
+.title-managment h2{font-size: 25px;}
+.item-grid {padding: 18px;}
+.content-net p {font-size: 16px;}
+.pic-acces {width: 165px;}
+.list-business li a {font-size:17px;}
+.reporting-grid{flex-wrap: wrap;text-align: center;}
+.reporting-icons,.cont-rep {width: 100%;}
+.reporting-icons{margin-top: 20px;}
+.expense-reporting .container .align-items-center:after{width: 380px; background-size: 100%;}
+.expense-reporting .container .align-items-center:nth-child(even):before{width: 380px; background-size: 100%;}
+.expense-reporting .container .align-items-center{margin-bottom: 50px;}
+.pricing-bx{height: 500px !important;}
+}
+
+@media (max-width: 767px) {
+.tabFyle h4 span {font-size: 18px !important;}
+.expense-reporting,.wraper-network,.wraper-footer{padding-top: 0;}
+.navbar-light{padding: 15px;}
+.logo-fyle {width: 115px;}
+.schedule a {font-size: 15px;border: 1px solid #FF3366;padding: 6px;}
+.banner-title h1 {font-size: 25px;}
+.expense-reporting .row:nth-of-type(even) .col-lg-7 {order: 2;}
+.item-grid {flex-wrap: wrap;}
+.content-net {padding-left: 0;padding-top: 20px;}
+.item-grid:before {width: 100%; height: 91%;top: 78px;}
+.btn-breckdown a{padding: 10px;}
+.triangle-bg {bottom: 52.5%;}
+.cont-rep h3 {font-size: 19px;}
+.business-title h2 {font-size: 24px;}
+.list-business li {width: 100%;}
+.footer-nav { width: 48%;}
+.pricing-bx{height: auto !important;}
+.item-grid:after {width: 100%;height: 83%;right: 0;background: url(../images/comma.png)no-repeat center bottom;background-size: 54%;
+    opacity: 0.2;}
+    .expense-reporting .container .align-items-center:after{display: none;}
+.expense-reporting .container .align-items-center:nth-child(even):before{display: none;}
+.expense-reporting .container .align-items-center{margin-bottom: 0px;}
+.tabFyle h4 {font-size: 18px;}
+.employeesR {width: 48%;}
+.btn-bx-fy button {font-size: 16px;padding: 7px 36px;}
+}
+@media (max-width: 414px) {
+ .tabFyle h4{font-size: 16px;}
+ .employeesR{width: 100%; margin-bottom: 8px;}
+ .btn-bx-fy button{margin-top:15px; }
+ .input-fyle{font-size: 25px;}
+ .tabFyle h4 span {font-size: 16px !important;}
+}
+@media (max-width: 320px){
+.list-business li a {
+    font-size: 15px;
+}
+.tabFyle h4{font-size: 14px;}
+.employeesR{font-size: 15px;}
+.btn-bx-fy button{margin-top: 10px;}
+.progress-line{bottom: 2rem;}
+.input-fyle{font-size: 20px;}
+}
